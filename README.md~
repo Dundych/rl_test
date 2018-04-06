@@ -23,7 +23,7 @@ OR
 
         :: Run tests inside custom container and get output
 
-        $ docker run -it --rm --name install-test install-test
+        $ docker run -it --rm --name install-test
 
 
 OR
