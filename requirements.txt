@@ -1,0 +1,9 @@
+certifi==2018.1.18
+chardet==3.0.4
+numpy==1.14.2
+py==1.5.3
+pytest==3.2.1
+pytest-html==1.16.1
+pytest-metadata==1.6.0
+pytest-pythonpath==0.7.1
+
