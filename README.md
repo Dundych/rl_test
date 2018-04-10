@@ -33,10 +33,12 @@ OR
 
         $ docker build . -t install-test
 
-        :: Run container and leave it openned with bash
+        :: Run container, mount folder with tests into container, and leave it openned with bash
 
         $ docker run -it --rm --name install-test -v $PWD:/root/my_test install-test /bin/bash
 
         :: Inside container install modules and run tests
 
         $ cd /root/my_test && pip install -r requirements.txt && pytest test_install.py -svl --html=out.html
+
+        :: check html report in your local folder with tests at out.html
